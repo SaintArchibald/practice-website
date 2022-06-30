@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css cheat sheet</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+  <div class="cointainer">
+    <div class="box-1">
+        <h1>css style</h1>
+        <img src="" alt="">
+        <h4>Features:</h4>
+        <p>
+        <div>- 3-in-1 harness booster helps protect your child, from toddler to youth</div> 
+        <div>- Grows with your child from forward-facing harness (22-65 lb) to highback booster (40-100 lb) to backless booster (40-100 lb)</div>
+        <div>- No-Rethread Simply Safe Adjust Harness System allows the headrest and harness to adjust together in one motion</div>
+        <div>- Steel-reinforced frame provides strength and durability</div>
+        <div>- 3-position recline helps keep your growing child comfy</div> 
+        <div>Call or text: 239-228-0551</div> 
+        <a class="button" href="#">Read more</a>
+        </p>
+    </div>
+    <div class="box-2">
+        <h1>sale</h1>
+        <h4>Features:</h4>
+        <ul>
+            <li></li>
+            <li>finish frontend simplified</li>
+            <li>network in the discord</li>
+        </ul>
+        <div>
+            Call or 
+            text: 239-228-0551
+        </div>
+    </div>
+    <div class="categories">
+        <h2>categories</h2>
+        <ul>
+            <li> <a href="#">purchase today</a> </li>
+            <li> <a href="#">car baby seat options</a> </li>
+            <li> <a href="#">network in the discord</a> </li>
+        </ul>
+    </div>
+    <form class="my-form">
+        <div class="form-group">
+            <label for="">Name:</label>
+            <input type="text" name="Name">
+        </div>
+        <div class="form-group">
+            <label for="">email: </label>
+            <input type="text" name="email">
+            <div class="form-group">
+                <label for="">password</label>
+                <input type="text" name="password">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="">message: </label>
+            <textarea name="message"></textarea>
+        </div>
+        <input class="button" type="submit" value="submit" name="">
+    </form>
+    <div class="block">
+        <h3>baby seat 1</h3>
+        <p>
+            Grows with your child from forward-facing harness (22-65 lb) to highback booster (40-100 lb) to backless booster (40-100 lb)
+            - No-Rethread Simply Safe Adjust Harness System allows the headrest and harness to adjust together in one motion
+        </p>
+    </div>
+    <div class="block">
+        <h3>baby seat 2</h3>
+        <p>
+            Grows with your child from forward-facing harness (22-65 lb) to highback booster (40-100 lb) to backless booster (40-100 lb)
+            - No-Rethread Simply Safe Adjust Harness System allows the headrest and harness to adjust together in one motion
+        </p>
+    </div>
+    <div class="block">
+        <h3>baby seat 3</h3>
+        <p>
+            Grows with your child from forward-facing harness (22-65 lb) to highback booster (40-100 lb) to backless booster (40-100 lb)
+            - No-Rethread Simply Safe Adjust Harness System allows the headrest and harness to adjust together in one motion
+        </p>
+    </div>
+    <div class="clr"></div>
+    
+    <div id="main-block">
+        <h3>baby seat 3</h3>
+        <p>
+            Grows with your child from forward-facing harness (22-65 lb) to highback booster (40-100 lb) to backless booster (40-100 lb)
+            - No-Rethread Simply Safe Adjust Harness System allows the headrest and harness to adjust together in one motion
+        </p>
+    </div>
+    <div id="sidebar">  
+        <p>
+            Grows with your child from forward-facing harness (22-65 lb) to highback booster (40-100 lb) to backless booster (40-100 lb)
+            - No-Rethread Simply Safe Adjust Harness System allows the headrest and harness to adjust together in one motion
+        </p>
+    </div>
+    
+    <div class="clr"></div>
+    
+    <div class="p-box">
+        <h1>hello</h1>
+        <h2>goodbye</h2>
+    </div>
+  </div>
+
+  <ul class="my-list">
+    <li>list item</li>
+    <li>list item</li>
+    <li>list item</li>
+    <li>list item</li>
+    <li>list item</li>
+    <li>list item</li>
+    <li>list item</li>
+    <li>list item</li>
+    <li>list item</li>
+    <li>list item</li>
+    <li>list item</li>
+    <li>list item</li>
+   </ul>
+    
+   <a class="fix-me button" href="">hello</a>
+    
+<div style="margin-top:500px;"></div>
+
+ </body>
+</html>
+
+CSS LAYOUT
+
+*
+{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+margin: auto;
+background-color: beige;
+color: black;
+h1{color:green}
+
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+font-size: 16px;
+font-weight: Normal;
+
+/same as above/
+font: normal 16px, arial, Helvetica, sana-serif;
+
+line-height:1.6em;
+margin:0;
+}
+
+a{
+    text-decoration: none;
+    color: rebeccapurple;
+}
+a:hover{ 
+    color: red;}
+a:active{ 
+    color: green;}
+/*a:visited{ color:blanchedalmond;} */
+
+.button{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 6px 10px;
+    margin-top: 10px;   
+}
+.button:hover{
+    background: red;
+    color: #fff;
+}
+.clr{ clear: both;}
+.cointainer{
+    width:80%;
+    margin:auto;
+    border:5px rgb(31, 7, 162) solid;
+}
+.box-1{
+    background-color: aliceblue;
+    color:rgb(16, 17, 16);
+    border: 20px blue;
+    padding: 10px;
+    margin: 10x 0;
+}  
+.box-1 h1{
+   font-family: Tahoma;
+   font-weight: 800;
+   font-style: italic;
+   text-decoration: underline red;
+   text-transform: uppercase;
+   letter-spacing: 0.2em;
+   /*word-spacing: 1em;*/
+}
+.box-2{
+    font-family: Tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline red;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    /*word-spacing: 1em;*/
+ }
+ .categories{
+    width: 90%;
+    margin: auto;
+    color:rgb(16, 17, 16);
+    border: 1px #ccc solid;
+    border-radius: 15px;
+    padding: 10px;
+}  
+.categories h2{ text-align:start;}
+.categories ul {
+    list-style: none;
+    list-style: square;
+    padding-left: 20px;
+}
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: dotted;
+    list-style-image: url(../images/check.png);
+}
+.my-form { 
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+.my-form label{ display: block;}
+.my-form input[type="text"] {
+    padding: 8px;
+    width: 100%;
+}
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-block{
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.p-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    position: relative;
+    background-image: url(../images/babysimage.jpg);
+    background-position: 100%;
+    background-position: no-repeat;
+}
+
+.p-box h1{ 
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+.p-box h2{ 
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+.fix-me{ 
+    position: fixed;
+    top: 400px;
+}
+.my-list li :first-child{
+background: red;
+}
+.my-list li :last-child{
+    background: blue;
+}
+.my-list li :nth-child(5){
+    background: yellow;
+}
+.my-list li :nth-child(even){
+    background: grey;
+}
